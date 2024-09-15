@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body a {
+  text-decoration: none;
+  color: black;
+}
+
+.home-top-header {
+  padding: 0.1rem 0;
+  padding-right: 1.7rem;
+  background-color: black;
+  color: white;
+}
+.home-top-header ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: end;
+  margin-bottom: 0;
+  gap: 1.5rem;
+}
+.home-top-header ul a {
+  color: wheat;
+}
+
+.header-main {
+  top: 0px;
+}
+.header-main .nav-main,
+.header-main .leftside-main,
+.header-main ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+.header-main .nav-main li,
+.header-main .leftside-main li,
+.header-main ul li {
+  padding: 0.5rem 1rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.header-main .nav-main li i,
+.header-main .leftside-main li i,
+.header-main ul li i {
+  color: #b27206;
+}
+.header-main .nav-main {
+  padding: 0.5rem 1rem;
+  justify-content: space-between;
+}
+.header-main .nav-main .leftside-main .main-logo img {
+  max-width: 200px;
+}
+.header-main .nav-main .leftside-main .nav-content li {
+  transition: all 0.5s ease-in-out;
+  border-bottom: 3px solid white;
+}
+.header-main .nav-main .leftside-main .nav-content li:hover {
+  border-bottom: 3px solid #b27206;
+}
+.header-main .nav-main .leftside-main .nav-content li .nav-content-dropdwon-main {
+  background-color: white;
+  width: 100%;
+  transition: all 1s ease;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 5rem;
+  z-index: 5;
+  padding: 1.3rem 0 0.5rem 0;
+}
+.header-main .nav-main .leftside-main .nav-content li .nav-content-dropdwon-main ul {
+  justify-content: center;
+}
+.header-main .nav-main .leftside-main .nav-content li .nav-content-dropdwon-main ul li {
+  padding: 0rem 1.1rem;
+  border: none;
+}
+.header-main .nav-main .leftside-main .nav-content .dropdown-icon {
+  font-size: 12px;
+  padding: 0 5px;
+}
+.header-main .nav-main .leftside-main .nav-content .nav-content-dropdown:hover .nav-content-dropdwon-main {
+  display: block;
+}
+.header-main .nav-main .rightside-main .nav-rightside-content .nav-searchbar {
+  border-radius: 0.3rem;
+  padding: 5px 0.5rem;
+  background-color: rgba(0, 0, 0, 0.084);
+}
+.header-main .nav-main .rightside-main .nav-rightside-content .nav-searchbar input {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.005);
+}
+.header-main .nav-main .rightside-main .nav-rightside-content .nav-searchbar input:focus {
+  outline: none;
+}
+
+.home-first-banner img {
+  width: 100%;
+}
+
+.category-img-sec {
+  padding: 2rem 1rem;
+}
+.category-img-sec .catergory-row-main {
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.category-img-sec .catergory-row-main .category-img-box img {
+  max-width: 150px;
+}
+
+.collec-three-sec {
+  padding: 3rem 0rem;
+}
+.collec-three-sec .coolec-img-main-box {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=main.css.map */

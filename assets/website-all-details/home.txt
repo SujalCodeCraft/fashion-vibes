@@ -1,0 +1,24 @@
+THe fashion vibes is the E - commerce based website for all type of wear for Mans , Womens And Kids with the all type of latest tranding fashion clothes for Boys ans Girls 
+In this We using these techonologies :_
+1.Html
+2.Css
+3.Java script 
+4.Nods.js
+5.MongoDB
+6.Sql
+7.For Server :- We used Aws serves 
+
+In fashion vibes web Home pages with all type collections details and thier images or videos for improving the user interface and all type of offer and trending deals for user.
+In this web we make a seprate pages for mans womens and kids and boy or girls .
+Pages :-
+Login 
+Signup
+Mans collections
+Womens collections
+Kids collections
+girls collections
+boyes collections
+Aout us
+contact us
+ cart page
+checkout page
